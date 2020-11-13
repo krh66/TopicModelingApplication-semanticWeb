@@ -27,25 +27,13 @@
         <Class IRI="#Title"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_1154ab91_ba1c_4a9c_9dbf_d1f19b28b658"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_5a569fe9_a2f3_4481_83fd_bad8773d74ad"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_6ece42a2_87b6_4858_bc44_b168731bc39c"/>
+        <ObjectProperty IRI="#hasSimilarDoc"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_80c9a97a_be8f_4a85_9ea1_4e8d7618877a"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_a1f1690a_b3dd_4c2b_912f_9f74eddc9538"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_ba10c2ec_e572_42fe_97f3_7b8699b1d812"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_de59c30b_0fb0_4204_a9ed_b041b6448abe"/>
+        <ObjectProperty IRI="#isSimilarwith"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.semanticweb.org/marcushsu/ontologies/2020/10/untitled-ontology-45#bodyProperty"/>
@@ -83,25 +71,25 @@
     <Declaration>
         <DataProperty IRI="http://www.semanticweb.org/marcushsu/ontologies/2020/10/untitled-ontology-45#hasPostTypeID"/>
     </Declaration>
+    <SubClassOf>
+        <Class IRI="#Body"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Title"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#OWLObjectProperty_1154ab91_ba1c_4a9c_9dbf_d1f19b28b658"/>
-        <ObjectProperty IRI="#OWLObjectProperty_6ece42a2_87b6_4858_bc44_b168731bc39c"/>
+        <ObjectProperty IRI="#hasSimilarDoc"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#OWLObjectProperty_80c9a97a_be8f_4a85_9ea1_4e8d7618877a"/>
-        <ObjectProperty IRI="#OWLObjectProperty_6ece42a2_87b6_4858_bc44_b168731bc39c"/>
+        <ObjectProperty IRI="#isSimilarwith"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#OWLObjectProperty_a1f1690a_b3dd_4c2b_912f_9f74eddc9538"/>
-        <ObjectProperty IRI="#OWLObjectProperty_6ece42a2_87b6_4858_bc44_b168731bc39c"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#OWLObjectProperty_ba10c2ec_e572_42fe_97f3_7b8699b1d812"/>
-        <ObjectProperty IRI="#OWLObjectProperty_6ece42a2_87b6_4858_bc44_b168731bc39c"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#OWLObjectProperty_de59c30b_0fb0_4204_a9ed_b041b6448abe"/>
-        <ObjectProperty IRI="#OWLObjectProperty_6ece42a2_87b6_4858_bc44_b168731bc39c"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/marcushsu/ontologies/2020/10/untitled-ontology-45#bodyProperty"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="http://www.semanticweb.org/marcushsu/ontologies/2020/10/untitled-ontology-45#hasBody"/>
@@ -118,6 +106,10 @@
     <SubObjectPropertyOf>
         <ObjectProperty IRI="http://www.semanticweb.org/marcushsu/ontologies/2020/10/untitled-ontology-45#isTitleOf"/>
         <ObjectProperty IRI="http://www.semanticweb.org/marcushsu/ontologies/2020/10/untitled-ontology-45#titleProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.semanticweb.org/marcushsu/ontologies/2020/10/untitled-ontology-45#titleProperty"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
         <ObjectProperty IRI="http://www.semanticweb.org/marcushsu/ontologies/2020/10/untitled-ontology-45#hasBody"/>
@@ -139,26 +131,19 @@
     <InverseFunctionalObjectProperty>
         <ObjectProperty IRI="http://www.semanticweb.org/marcushsu/ontologies/2020/10/untitled-ontology-45#isTitleOf"/>
     </InverseFunctionalObjectProperty>
-    <SymmetricObjectProperty>
-        <ObjectProperty IRI="#OWLObjectProperty_1154ab91_ba1c_4a9c_9dbf_d1f19b28b658"/>
-    </SymmetricObjectProperty>
-    <SymmetricObjectProperty>
-        <ObjectProperty IRI="#OWLObjectProperty_80c9a97a_be8f_4a85_9ea1_4e8d7618877a"/>
-    </SymmetricObjectProperty>
-    <SymmetricObjectProperty>
-        <ObjectProperty IRI="#OWLObjectProperty_a1f1690a_b3dd_4c2b_912f_9f74eddc9538"/>
-    </SymmetricObjectProperty>
-    <SymmetricObjectProperty>
-        <ObjectProperty IRI="#OWLObjectProperty_ba10c2ec_e572_42fe_97f3_7b8699b1d812"/>
-    </SymmetricObjectProperty>
-    <SymmetricObjectProperty>
-        <ObjectProperty IRI="#OWLObjectProperty_de59c30b_0fb0_4204_a9ed_b041b6448abe"/>
-    </SymmetricObjectProperty>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_5a569fe9_a2f3_4481_83fd_bad8773d74ad"/>
         <Class IRI="#OWLClass_f10d8d07_2025_4e95_899a_7ceb7a115335"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSimilarDoc"/>
+        <Class IRI="#OWLClass_f10d8d07_2025_4e95_899a_7ceb7a115335"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSimilarwith"/>
+        <Class IRI="#OWLClass_b99e0e8d_93ac_441c_904e_3027cbb315f3"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="http://www.semanticweb.org/marcushsu/ontologies/2020/10/untitled-ontology-45#isBodyOf"/>
         <Class IRI="#Body"/>
     </ObjectPropertyDomain>
@@ -167,6 +152,14 @@
         <Class IRI="#Title"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSimilarDoc"/>
+        <Class IRI="#OWLClass_b99e0e8d_93ac_441c_904e_3027cbb315f3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSimilarwith"/>
+        <Class IRI="#OWLClass_f10d8d07_2025_4e95_899a_7ceb7a115335"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="http://www.semanticweb.org/marcushsu/ontologies/2020/10/untitled-ontology-45#hasBody"/>
         <Class IRI="#Body"/>
     </ObjectPropertyRange>
@@ -174,13 +167,6 @@
         <ObjectProperty IRI="http://www.semanticweb.org/marcushsu/ontologies/2020/10/untitled-ontology-45#hasTitle"/>
         <Class IRI="#Title"/>
     </ObjectPropertyRange>
-    <DisjointObjectProperties>
-        <ObjectProperty IRI="#OWLObjectProperty_1154ab91_ba1c_4a9c_9dbf_d1f19b28b658"/>
-        <ObjectProperty IRI="#OWLObjectProperty_80c9a97a_be8f_4a85_9ea1_4e8d7618877a"/>
-        <ObjectProperty IRI="#OWLObjectProperty_a1f1690a_b3dd_4c2b_912f_9f74eddc9538"/>
-        <ObjectProperty IRI="#OWLObjectProperty_ba10c2ec_e572_42fe_97f3_7b8699b1d812"/>
-        <ObjectProperty IRI="#OWLObjectProperty_de59c30b_0fb0_4204_a9ed_b041b6448abe"/>
-    </DisjointObjectProperties>
     <SubDataPropertyOf>
         <DataProperty IRI="#OWLDataProperty_74a248ad_0284_417c_84ed_d55c23ed1cf4"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
@@ -201,6 +187,24 @@
         <DataProperty IRI="http://www.semanticweb.org/marcushsu/ontologies/2020/10/untitled-ontology-45#hasPostTypeID"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#OWLDataProperty_20656bf1_f57b_40a7_ad5d_7d540bffd59e"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#OWLDataProperty_74a248ad_0284_417c_84ed_d55c23ed1cf4"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#OWLDataProperty_8f6379a7_0d89_465f_beac_3c6eccb5d8fa"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/marcushsu/ontologies/2020/10/untitled-ontology-45#hasCreateTime"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/marcushsu/ontologies/2020/10/untitled-ontology-45#hasParentID"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/marcushsu/ontologies/2020/10/untitled-ontology-45#hasPostTypeID"/>
+    </FunctionalDataProperty>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_b99e0e8d_93ac_441c_904e_3027cbb315f3</IRI>
@@ -228,38 +232,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_1154ab91_ba1c_4a9c_9dbf_d1f19b28b658</IRI>
-        <Literal xml:lang="en">hasFirstSimilarity</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_5a569fe9_a2f3_4481_83fd_bad8773d74ad</IRI>
         <Literal xml:lang="en">hasKeyword</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_6ece42a2_87b6_4858_bc44_b168731bc39c</IRI>
-        <Literal xml:lang="en">similarityProperty</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_80c9a97a_be8f_4a85_9ea1_4e8d7618877a</IRI>
-        <Literal xml:lang="en">hasThirdSimilarity</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_a1f1690a_b3dd_4c2b_912f_9f74eddc9538</IRI>
-        <Literal xml:lang="en">hasFourthSimilarity</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_ba10c2ec_e572_42fe_97f3_7b8699b1d812</IRI>
-        <Literal xml:lang="en">hasFifthSimilarity</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_de59c30b_0fb0_4204_a9ed_b041b6448abe</IRI>
-        <Literal xml:lang="en">hasSecondSimilarity</Literal>
     </AnnotationAssertion>
 </Ontology>
 
