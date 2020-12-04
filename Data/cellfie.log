@@ -1,0 +1,137 @@
+Date: 2020-12-03 17:20:04
+Ontology source: /Users/Marcushsu/Documents/GitHub/SER531TEAM/owlRules.owl
+Worksheet source: /Users/Marcushsu/Documents/GitHub/SER531TEAM/Data/lda_topic_tops_words.xlsx
+Transformation rules: /Users/Marcushsu/Documents/GitHub/SER531TEAM/Data/owlrules1.json
+
+# Cell range: (Sheet1!B2:B+) Comment: ""
+# Individual: @B* (rdfs:label=@B*)
+# Types: Keyword
+
+Individual: think  # Generated from value "think" located at cell 'Sheet1'!B2.
+   Types: Keyword
+Individual: se  # Generated from value "se" located at cell 'Sheet1'!B3.
+   Types: Keyword
+Individual: site  # Generated from value "site" located at cell 'Sheet1'!B4.
+   Types: Keyword
+Individual: like  # Generated from value "like" located at cell 'Sheet1'!B5.
+   Types: Keyword
+Individual: new  # Generated from value "new" located at cell 'Sheet1'!B6.
+   Types: Keyword
+Individual: would  # Generated from value "would" located at cell 'Sheet1'!B7.
+   Types: Keyword
+Individual: topic  # Generated from value "topic" located at cell 'Sheet1'!B8.
+   Types: Keyword
+Individual: one  # Generated from value "one" located at cell 'Sheet1'!B9.
+   Types: Keyword
+Individual: advice  # Generated from value "advice" located at cell 'Sheet1'!B10.
+   Types: Keyword
+Individual: make  # Generated from value "make" located at cell 'Sheet1'!B11.
+   Types: Keyword
+
+===========================================================================================================
+Date: 2020-12-03 17:21:26
+Ontology source: /Users/Marcushsu/Documents/GitHub/SER531TEAM/owlRules.owl
+Worksheet source: /Users/Marcushsu/Documents/GitHub/SER531TEAM/Data/lda_topic_tops_words.xlsx
+Transformation rules: /Users/Marcushsu/Documents/GitHub/SER531TEAM/Data/owlrules1.json
+
+# Cell range: (Sheet1!C2:C+) Comment: ""
+# Individual: @C* (rdfs:label=@C*)
+# Types: Keyword
+
+Individual: site  # Generated from value "site" located at cell 'Sheet1'!C2.
+   Types: Keyword
+Individual: one  # Generated from value "one" located at cell 'Sheet1'!C3.
+   Types: Keyword
+Individual: answers  # Generated from value "answers" located at cell 'Sheet1'!C4.
+   Types: Keyword
+Individual: community  # Generated from value "community" located at cell 'Sheet1'!C5.
+   Types: Keyword
+Individual: opinion  # Generated from value "opinion" located at cell 'Sheet1'!C6.
+   Types: Keyword
+Individual: think  # Generated from value "think" located at cell 'Sheet1'!C7.
+   Types: Keyword
+Individual: based  # Generated from value "based" located at cell 'Sheet1'!C8.
+   Types: Keyword
+Individual: product  # Generated from value "product" located at cell 'Sheet1'!C9.
+   Types: Keyword
+Individual: like  # Generated from value "like" located at cell 'Sheet1'!C10.
+   Types: Keyword
+Individual: topic  # Generated from value "topic" located at cell 'Sheet1'!C11.
+   Types: Keyword
+
+# Cell range: (Sheet1!D2:D+) Comment: ""
+# Individual: @D* (rdfs:label=@D*)
+# Types: Keyword
+
+Individual: tag  # Generated from value "tag" located at cell 'Sheet1'!D2.
+   Types: Keyword
+Individual: flavor  # Generated from value "flavor" located at cell 'Sheet1'!D3.
+   Types: Keyword
+Individual: wiki  # Generated from value "wiki" located at cell 'Sheet1'!D4.
+   Types: Keyword
+Individual: tags  # Generated from value "tags" located at cell 'Sheet1'!D5.
+   Types: Keyword
+Individual: drip  # Generated from value "drip" located at cell 'Sheet1'!D6.
+   Types: Keyword
+Individual: one  # Generated from value "one" located at cell 'Sheet1'!D7.
+   Types: Keyword
+Individual: think  # Generated from value "think" located at cell 'Sheet1'!D8.
+   Types: Keyword
+Individual: use  # Generated from value "use" located at cell 'Sheet1'!D9.
+   Types: Keyword
+Individual: different  # Generated from value "different" located at cell 'Sheet1'!D10.
+   Types: Keyword
+Individual: process  # Generated from value "process" located at cell 'Sheet1'!D11.
+   Types: Keyword
+
+# Cell range: (Sheet1!E2:E+) Comment: ""
+# Individual: @E* (rdfs:label=@E*)
+# Types: Keyword
+
+Individual: topic  # Generated from value "topic" located at cell 'Sheet1'!E2.
+   Types: Keyword
+Individual: answers  # Generated from value "answers" located at cell 'Sheet1'!E3.
+   Types: Keyword
+Individual: would  # Generated from value "would" located at cell 'Sheet1'!E4.
+   Types: Keyword
+Individual: caffeine  # Generated from value "caffeine" located at cell 'Sheet1'!E5.
+   Types: Keyword
+Individual: beans  # Generated from value "beans" located at cell 'Sheet1'!E6.
+   Types: Keyword
+Individual: also  # Generated from value "also" located at cell 'Sheet1'!E7.
+   Types: Keyword
+Individual: like  # Generated from value "like" located at cell 'Sheet1'!E8.
+   Types: Keyword
+Individual: flags  # Generated from value "flags" located at cell 'Sheet1'!E9.
+   Types: Keyword
+Individual: moderation  # Generated from value "moderation" located at cell 'Sheet1'!E10.
+   Types: Keyword
+Individual: even  # Generated from value "even" located at cell 'Sheet1'!E11.
+   Types: Keyword
+
+# Cell range: (Sheet1!F2:F+) Comment: ""
+# Individual: @F* (rdfs:label=@F*)
+# Types: Keyword
+
+Individual: meta  # Generated from value "meta" located at cell 'Sheet1'!F2.
+   Types: Keyword
+Individual: answers  # Generated from value "answers" located at cell 'Sheet1'!F3.
+   Types: Keyword
+Individual: like  # Generated from value "like" located at cell 'Sheet1'!F4.
+   Types: Keyword
+Individual: site  # Generated from value "site" located at cell 'Sheet1'!F5.
+   Types: Keyword
+Individual: sites  # Generated from value "sites" located at cell 'Sheet1'!F6.
+   Types: Keyword
+Individual: edit  # Generated from value "edit" located at cell 'Sheet1'!F7.
+   Types: Keyword
+Individual: stack  # Generated from value "stack" located at cell 'Sheet1'!F8.
+   Types: Keyword
+Individual: se  # Generated from value "se" located at cell 'Sheet1'!F9.
+   Types: Keyword
+Individual: also  # Generated from value "also" located at cell 'Sheet1'!F10.
+   Types: Keyword
+Individual: work  # Generated from value "work" located at cell 'Sheet1'!F11.
+   Types: Keyword
+
+===========================================================================================================
