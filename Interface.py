@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[13]:
+# In[15]:
 
 
 import rdflib
@@ -55,7 +55,7 @@ def search(id):
             'SELECT ?a ?title ?content ?topic WHERE { ?a xmlns:hasID ?v . ?a oto:hasTitle ?label . ?label xmlns:TitleContent ?title . ?a oto:hasBody ?body . ?body rdfs:label ?content. ?a pro:hasTopic ?topic}', 
             initNs = {"oto":OTO, "xmlns": XMLNS,"xsd":XSD,"pro":PRO})
         g = rdflib.Graph()
-        g.parse("Coffee.owl")
+        g.parse("./Coffee.owl")
         v = rdflib.term.Literal(id)
         qres = g.query(q,initBindings = {'v' : v})
         
@@ -80,7 +80,7 @@ def search(id):
             'SELECT ?id ?title ?content WHERE { ?a pro:hasTopic ?v. ?a xmlns:hasID ?id FILTER(?id != ?oid). ?a oto:hasTitle ?label . ?label xmlns:TitleContent ?title . ?a oto:hasBody ?body . ?body rdfs:label ?content}', 
             initNs = {"oto":OTO, "xmlns": XMLNS,"xsd":XSD,"pro":PRO})
         g = rdflib.Graph()
-        g.parse("Coffee.owl")
+        g.parse("./Coffee.owl")
         oid = rdflib.term.Literal(id)
         qres = g.query(q,initBindings = {'v' : topic, 'oid' : oid})
         index = 1
@@ -117,7 +117,7 @@ def searchK(s):
             'SELECT ?id ?title WHERE { ?t rdf:type pro:Keyword. ?t rdfs:label ?v. ?topic pro:hasKeyword ?t. ?document pro:hasTopic ?topic. ?document pro:hasID ?id . ?document oto:hasTitle ?label . ?label xmlns:TitleContent ?title .}', 
             initNs = {"oto":OTO, "xmlns": XMLNS,"xsd":XSD,"pro":PRO})
         g = rdflib.Graph()
-        g.parse("Coffee.owl")
+        g.parse("./Coffee.owl")
         h = rdflib.URIRef("http://www.semanticweb.org/marcushsu/ontologies/2020/10/ser531#OWLNamedIndividual_0fa8cf3f_ab95_4e68_a468_b9424c4249d8")
         v = rdflib.term.Literal(s)
         qres = g.query(q,initBindings = {'v' : v})
@@ -162,7 +162,7 @@ q = sparql.prepareQuery(
     'SELECT ?keyword WHERE { ?a rdf:type pro:Keyword . ?a rdfs:label ?keyword}', 
     initNs = {"oto":OTO, "xmlns": XMLNS,"xsd":XSD,"pro":PRO})
 g = rdflib.Graph()
-g.parse("Coffee.owl")
+g.parse("./Coffee.owl")
 
 qres = g.query(q)
 
