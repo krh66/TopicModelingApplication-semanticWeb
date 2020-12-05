@@ -1,7 +1,10 @@
 # SER531TEAM
 
-These are the links to our executable zip file on google drive. <br/>
+This is our project proposal link on google drive:<br/>
+https://drive.google.com/file/d/12mN3wl3sdJFmpiskyu_gLsAdCzHRHl59/view?usp=sharing
 <br/>
+
+These are the links to our executable zip file on google drive. <br/>
 For mac: https://drive.google.com/file/d/1hZdLOvKiho9oEWuKhLd00PS7-4fQXBzo/view?usp=sharing <br/>
 If the environment is mac, all you need to do is run the Interface Unit executable file inside Interface folder. An user interface will pop out. The process will take several minutes. </br>
 <br/>
